@@ -29,6 +29,6 @@ The dataset contains 22,424 images which belongs to one of the 10 classes given 
     
     c9: talking to passenger
     
-We split the training data into two sets: training set containing 20,924 images, and validation set containing 1500 images (e.g., 150 images for each class).
+We split the data into two sets: training set containing 20,924 images, and validation set containing 1500 images (e.g., 150 images for each class).
 
 
