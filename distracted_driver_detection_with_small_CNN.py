@@ -57,3 +57,4 @@ model.fit_generator(train_generator, samples_per_epoch=20924, nb_epoch=20,
 
 # save the weights
 model.save_weights('driver_state_detection_small_CNN.h5')
+
