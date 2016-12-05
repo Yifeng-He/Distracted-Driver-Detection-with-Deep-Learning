@@ -1,5 +1,5 @@
 # Distracted-Driver-Detection-with-Deep-Learning
-This project aims to detect the dangerous status of driving based on the images captured by the dashboard camera using deep learning technology.
+This project aims to detect the dangerous status of driving based on the images captured by the dashboard camera using deep learning.
 
 # Dataset
 
