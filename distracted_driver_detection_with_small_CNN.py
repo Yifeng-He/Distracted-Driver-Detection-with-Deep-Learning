@@ -1,6 +1,9 @@
 '''
 This program is used to detect the driver's status (10 statuses) by using a small convolutional neural network, which
 is trained fram scatch using the training images.
+Result:
+Training set:  acc: 0.8971 
+Validation set: acc: 0.9855
 '''
 
 from keras.preprocessing.image import ImageDataGenerator
