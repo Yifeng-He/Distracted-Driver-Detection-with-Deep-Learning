@@ -2,7 +2,7 @@
 This program is used to recognize the driver's status (one of the 10 statuses) based on the image using pre-trained VGG16 
 deep convolutional neural network (CNN).
 
-This program is modified from the blog pose 
+This program is modified from the blog post: 
 "Building powerful image classification models using very little data" from blog.keras.io.
 
 This program do fine tunning for a modified VGG16 net, which consists of two parts: 
