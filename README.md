@@ -31,4 +31,10 @@ The dataset contains 22,424 images which belongs to one of the 10 classes given 
     
 We split the data into two sets: training set containing 20,924 images, and validation set containing 1500 images (e.g., 150 images for each class).
 
+# Method 1: train a small Convolutional Neural Network (CNN) from the scatch
+
+Method 1 is implemented in distracted_driver_detection_with_small_CNN.py. The small CNN consists of 3 convolutional layers with filter size of 3*3, each of which is followed by a max-pooling layer with pool isize of 2*2, and 2 fully connected layers.
+
+
+
 
