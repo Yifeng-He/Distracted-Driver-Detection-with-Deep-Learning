@@ -9,10 +9,6 @@ This program do fine tunning for a modified VGG16 net, which consists of two par
 the lower model: layer 0-layer24 of the original VGG16 net  (frozen the first 4 blocks, train the weights of the 5-th block 
 with our dataset)
 the upper model: newly added two layer dense net (train the weights using our dataset)
-
-Result:
-validation on traing dataset: accuracy =  0.9821
-validation on the validation dataset:  accuracy = 0.9893
 '''
 
 import os
