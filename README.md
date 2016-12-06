@@ -33,7 +33,17 @@ We split the data into two sets: training set containing 20,924 images, and vali
 
 # Method 1: train a small Convolutional Neural Network (CNN) from the scatch
 
-Method 1 is implemented in distracted_driver_detection_with_small_CNN.py. The small CNN consists of 3 convolutional layers with filter size of 3*3, each of which is followed by a max-pooling layer with pool isize of 2*2, and 2 fully connected layers.
+Method 1 is implemented in distracted_driver_detection_with_small_CNN.py. The small CNN consists of 3 convolutional layers with filter size of 3x3, each of which is followed by a max-pooling layer with pool isize of 2x2, and 2 fully-connected dense layers.
+
+The evaluation results for method 1: accuracy on training set is 0.8971, and the accuracy on the validation set (1500 images) is 0.9855.
+
+# Method 2: train a two-layer dense neural network on top of a pre-trained VGG16 deep CNN
+
+VGG16 is a 16-layer CNN used by the VGG team in the ILSVRC-2014 competition. The weights of pre-trained VGG16 CNN can be found at:
+
+https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
+
+
 
 
 
