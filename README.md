@@ -35,7 +35,6 @@ We split the data into two sets: training set containing 20,924 images, and vali
 
 Method 1 is implemented in "distracted_driver_detection_with_small_CNN.py". The small CNN consists of 3 convolutional layers with filter size of 3x3, each of which is followed by a max-pooling layer with pool isize of 2x2, and 2 fully-connected dense layers.
 
-The evaluation results for Method 1: accuracy on training set is 0.8971, and the accuracy on the validation set (1500 images) is 0.9855.
 
 # Method 2: train a two-layer dense neural network on top of a pre-trained VGG16 deep CNN
 
@@ -45,7 +44,6 @@ https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
 
 Method 2 is implemented in "distracted_driver_detection_with_pretrained_VGG16_deep_CNN.py". The model consists of two parts: the lower part is a pre-trained VGG network with fozen weights, and the upper part is a two-layer dense network. The model is trained using the dataset.  
 
-The evaluation results for Method 2: accuracy on training set is 0.9821, and the accuracy on the validation set (1500 images) is 0.9893.
 
 
 
