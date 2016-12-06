@@ -43,6 +43,10 @@ VGG16 is a 16-layer CNN used by the VGG team in the ILSVRC-2014 competition. The
 
 https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
 
+Method 2 is implemented in distracted_driver_detection_with_pretrained_VGG16_deep_CNN.py. The model consists of two parts: the lower part is a pre-trained VGG network with fozen weights, and the upper part is a two-layer dense network. The model is trained using the dataset.  
+
+The evaluation results for method 1: accuracy on training set is 0.9821, and the accuracy on the validation set (1500 images) is 0.9893.
+
 
 
 
